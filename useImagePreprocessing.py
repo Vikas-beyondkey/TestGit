@@ -58,7 +58,7 @@ if __name__=="__main__":
     #         imgAlign = imgpre.ResizeImage(imgAlign,40)
     #         imgpre.ShowImage("Image Align",imgAlign)
 
-    # #========Skew correction========
+    # #========Skew correction============
     filepath = 'E:/ImagePre_Preocessing/SkewImages/Skewed_Images/Screenshot 2022-05-16 205614.jpg' #Screenshot 2022-05-16 210016
     img = cv2.imread(filepath)
     newimage = imgpre.Skew_Correction(img)
